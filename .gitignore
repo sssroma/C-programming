@@ -1,0 +1,12 @@
+# скомпилированные файлы
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# папки сборки и IDE
+build/
+.vscode/
+.idea/
+gitignore/
