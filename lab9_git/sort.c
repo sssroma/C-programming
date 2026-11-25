@@ -1,3 +1,5 @@
+// квик сорт по схеме Хоара
+
 void quick_sort(int *a, int left, int right) {
     if (left >= right) return;
     int pivot = a[(left + right) / 2];
@@ -13,3 +15,5 @@ void quick_sort(int *a, int left, int right) {
     quick_sort(a, left, j);
     quick_sort(a, i, right);
 }
+
+// Сортирует быстрее, чем я делаю лабы
